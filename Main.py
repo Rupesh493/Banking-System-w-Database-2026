@@ -1,7 +1,3 @@
-from Function import *
+from Ui import start_app
 
-#user = login(1, 1234)
-#print("successfully logged in:", user)
-
-deposit(1, 500)
-print("Deposit successful.")
+start_app()
